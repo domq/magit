@@ -70,3 +70,7 @@
 
 - The Custom type definition of ~magit-diff-adjust-tab-width~ was
   broken.  #3671
+
+- ~magit-diff-type~ falsely concluded that a diff buffer showed
+  unstaged changes when diffing a range where the right side resolves
+  to the same commit as ~HEAD~.
